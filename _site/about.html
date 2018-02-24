@@ -1,12 +1,86 @@
----
-layout: page
-title: "About Me"
-header-img: "assets/img/about-bg.jpg"
-description: "I'm looking for a job in ShenZhen ."
-hidePosts: true
----
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Main Content -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This Is My Personal Blog">
+    <meta name="author" content="uckendo">
+    <meta name="keywords" content="">
+    <title>About Me--Mr. Zeng Zhiwen's blog</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Additional fonts for this theme -->
+    <link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this theme -->
+    <link href="/assets/css/clean-blog.min.css" rel="stylesheet">
+    <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="/">Home</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="/about.html">About</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="/about.html">Posts</a>
+                </li>
+                -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/assets/img/about-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="page-heading">
+                    <h1>About Me</h1>
+                    <hr class="small">
+                    <span class="subheading">I'm looking for a job in ShenZhen .</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Main Content -->
 <div class="container">
     <div class="row">
         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -37,14 +111,14 @@ hidePosts: true
                     <label>发信小系统</label>
                     <div class="form-group floating-label-form-group controls">
                         主要功能：用户管理、信件模板管理、信件管理、发信账号管理
-                        <img src="{{ site.baseurl}}/assets/img/email-sys.jpg" style="width: 800px;height: 400px;">
+                        <img src="/assets/img/email-sys.jpg" style="width: 800px;height: 400px;">
                     </div>
                 </div>
                 <div class="control-group">
                     <label>自研发ERP</label>
                     <div class="form-group floating-label-form-group controls">
                         主要功能：系统设置管理、 报表管理、单据管理、客户管理、类目管理、平台店铺管理、产品管理、库存管理
-                        <img src="{{ site.baseurl}}/assets/img/erp.jpg" style="width: 800px;height: 400px;">
+                        <img src="/assets/img/erp.jpg" style="width: 800px;height: 400px;">
                     </div>
                 </div>
             </p>
@@ -160,3 +234,42 @@ hidePosts: true
 </div>
 </div>
 </div>
+
+
+    
+<hr>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="http://localhost:4000" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; uckendo 2018. <a href="http://localhost:4000" target="_blank" title="Mr. Zeng Zhiwen's blog">uckendo</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery Version 3.1.1 -->
+<script src="/assets/lib/jquery/jquery.js"></script>
+
+<!-- Tether -->
+<script src="/assets/lib/tether/tether.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/lib/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="/assets/js/clean-blog.min.js"></script>
+
+</body>
+</html>
